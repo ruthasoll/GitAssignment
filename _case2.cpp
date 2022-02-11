@@ -14,10 +14,7 @@ int main()
     switch(s)
         {
         case 1:
-            {   int x1=200,y1=150,x2=300,y2=250;
-                int tx=50,ty=50;
-                cout<<"Rectangle before translation"<<endl;
-                setcolor(3);
+            {   int 
                 rectangle(x1,y1,x2,y2);
                 setcolor(4);
                 cout<<"Rectangle after translation"<<endl;

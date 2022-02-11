@@ -14,7 +14,7 @@ int main()
         case 1:
             {   int x1=200,y1=150,x2=300,y2=250;
                 int tx=50,ty=50;
-                cout<<"Rectangle before translation"<<endl;
+                cout<<"Rectangle before translation occured"<<endl;
                 setcolor(3);
                 rectangle(x1,y1,x2,y2);
                 setcolor(4);
@@ -47,7 +47,7 @@ int main()
                 cout<<"Before scaling"<<endl;
                 setcolor(3);
                 rectangle(x1,y1,x2,y2);
-                cout<<"After scaling"<<endl;
+                cout<<"After some change"<<endl;
                 setcolor(10);
                 rectangle(x1*x,y1*y,x2*x,y2*y);
                 getch();
@@ -62,7 +62,7 @@ int main()
 }
 default:
           {
-            cout<<"Invalid Selection"<<endl;
+            cout<<"Invalid selected menu"<<endl;
             break;
           }
         }

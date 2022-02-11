@@ -27,6 +27,20 @@ int main()
             }
         case 2:
             {     
+			long x1=200,y1=200,x2=300,y2=300;
+                double a;
+                cout<<"Rectangle with rotation"<<endl;
+                setcolor(3);
+                rectangle(x1,y1,x2,y2);
+                cout<<"Angle of rotation:";
+                cin>>a;
+                a=(a*3.14)/180;
+                long xr=x1+((x2-x1)*cos(a)-(y2-y1)*sin(a));
+                long yr=y1+((x2-x1)*sin(a)+(y2-y1)*cos(a));
+                setcolor(2);
+                rectangle(x1,y1,xr,yr);
+                getch();
+             
 			break;
 }
         case 3:

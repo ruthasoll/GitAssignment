@@ -29,7 +29,7 @@ int main()
             {
 			long x1=200,y1=200,x2=300,y2=300;
                 double a;
-                cout<<"Rectangle with rotation"<<endl;
+                cout<<"Rectangle with rotation effect applied"<<endl;
                 setcolor(3);
                 rectangle(x1,y1,x2,y2);
                 cout<<"Angle of rotation:";
